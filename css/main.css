@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1e90ff;
+}
+
+h1 {
+  font-size: 22px;
+  color: #ffff00;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 20px;
+  color: #ffff00;
+  text-transform: uppercase;
+}
+
+h2 a{
+  font-size: 20px;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #111111;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+h3 a{
+  color: #111111;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+h3.title {
+  padding-bottom: 4px;
+}
+
+p {
+  color: #111111;
+  font-size: 14px;
+}
+
+p a {
+  color: #111111;
+  font-size: 14px;
+}
+
+.text p {
+  text-align: justify;
+}
+
+.text h2 {
+  text-align: left;
+  font-size: 20px;
+  color: #111111;
+  text-transform: none;
+  text-decoration: underline;
+}
+
+.text ul li{
+  margin: 0px 0px 0px 30px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.hindi p {
+  font-size: 16px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto; 
+  border-radius: 4px;
+}
+
+.header-image {
+  margin: 20px 0 0 0;
+  padding: 0;
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-image {
+    margin: 20px 0 0 0;
+    padding: 0;
+    width: 50%;
+    border-radius: 5px;
+  }
+}
+
+.full-box {
+  margin: 2px 4px -2px 4px;
+  border-radius: 4px;
+}
+
+.box {
+  margin: 2px 4px;
+  padding: 8px 6px 6px 6px;
+  border-radius: 4px;
+}
+
+.main {
+  background-color: #1873cc;
+}
+
+.sub {
+  background-color: #d2e8ff;
+}
+
+.ad {
+  margin: 2px 4px;
+}
+
+.break {
+  font-size: 20px;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.number {
+  font-size: 24px;
+  color: #e60000;
+  padding-top: 4px;
+}
+
+.number p a {
+  font-size: 22px;
+  color: #e60000;
+}
+
+.smallnumber {
+  font-size: 18px;
+  color: #e60000;
+}
+
+.date-white {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.date-black {
+  font-size: 17px;
+  color: #111111;
+}
+
+.button {
+  margin: 2px 4px;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: #1873cc;
+}
+
+.button p,
+.button a {
+  color: #ffffff;
+}
+
+.rounded {
+  width: calc(100% - 10px);
+  margin: 2px 4px;
+  border: 1px solid #d2e8ff;
+  border-radius: 4px;
+}
+
+.time-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.time-table thead th {
+  color: #ffffff;
+  background-color: #1873cc;
+  border-top: 0px solid #1e90ff;
+  padding: 4px 2px;
+  font-size: 16px;
+}
+
+.time-table tbody td {
+  color: #111111;
+  background-color: #d2e8ff;
+  border-top: 1px solid #1e90ff;
+  padding: 4px 2px;
+}
+
+.jodi-chart {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.jodi-chart thead th {
+  color: #ffffff;
+  background-color: #1873cc;
+  padding: 2px;
+  border-left: 1px solid #1e90ff;
+}
+
+.jodi-chart thead th:first-child {
+  border-left: 0px solid #d2e8ff;
+}
+
+.jodi-chart tbody td {
+  padding: 2px;
+  border-top: solid 1px #1e90ff;
+  border-left: 1px solid #1e90ff;
+  background-color: #d2e8ff;
+}
+
+.jodi-chart tbody td:first-child {
+  border-left: 0px solid #d2e8ff;
+}
+
+.panel-chart p {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.panel-chart {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #d2e8ff;
+}
+
+.panel-chart thead th {
+  color: #ffffff !important;
+  background-color: #1873cc;
+  padding: 4px 2px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.panel-chart tbody td {
+  font-weight: bold;
+  padding: 2px;
+  border-top: solid 1px #1e90ff;
+  font-size: 10px;
+}
+
+.match {
+  color: #e60000;
+}
+
+.red {
+  color: #e60000;
+}
+
+.social-icon {
+  height: 35px;
+  width: 35px;
+  margin: 2px 0;
+}
+
+.footer-text {
+  color: #ffffff;
+  padding-top: 4px;
+}
+
+.footer-text a {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.refresh {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  color: #ffffff;
+  background-color: #e60000;
+  border: 2px solid #b80000;
+  border-radius: 4px;
+  padding: 4px 6px;
+}
