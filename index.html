@@ -22,27 +22,6 @@
 
     gtag('config', 'UA-160009944-1');
   </script>
-  <script src='https://www.google.com/jsapi' type='text/javascript'></script>
-  <script type='text/javascript'>
-    google.load('visualization', '1', {packages: ['corechart', 'line']});
-    google.setOnLoadCallback(drawChart);
-
-    function drawChart() {var spreadsheetUrl = "https://docs.google.com/spreadsheets/d/1BZzSmIGjftNWZjK1cAVQjZKPV7_9p0u2l80h8HD2LVU/edit#gid=0";
-      var query = new google.visualization.Query(spreadsheetUrl);
-      query.send(handleQueryResponse);
-    }
-
-    function handleQueryResponse(response) {
-      var dataTable = response.getDataTable();
-      document.getElementById("time_bazar").innerHTML = dataTable.getValue(1, 2);
-      document.getElementById("milan_day").innerHTML = dataTable.getValue(2, 2);
-      document.getElementById("rajdhani_day").innerHTML = dataTable.getValue(3, 2);
-      document.getElementById("kalyan").innerHTML = dataTable.getValue(4, 2);
-      document.getElementById("milan_night").innerHTML = dataTable.getValue(5, 2);
-      document.getElementById("rajdhani_night").innerHTML = dataTable.getValue(6, 2);
-      document.getElementById("main_ratan").innerHTML = dataTable.getValue(7, 2);
-    }
-  </script>
 </head>
 <body>
   <div>
